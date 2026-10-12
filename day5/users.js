@@ -13,7 +13,7 @@ async function loadUsers() {
 
   try {
     const response = await fetch(
-      "https://jsonplaceholder.typicode.com/invalid-users-test"
+      "https://jsonplaceholder.typicode.com/users"
     );
 
     if (!response.ok) {
